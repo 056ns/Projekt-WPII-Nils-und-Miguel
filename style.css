@@ -11,23 +11,47 @@
 
     #hauptseite {
       background-color: blue;
-      border: 2px solid aqua;
     }
   
     #wrapper {
       background-color: grey;
       border: 2px solid black;
+      margin: 0px;
+      padding: 0px;
     }
     
+
+    /* Temporär start */
+
     #header {
-      background-color: gold;
+      background-color: white;
       border: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    #navigation {
+    #logo {
+      border: 2px solid black;
+      
+    }
+
+    #logo img {
+     width: 200px; 
+     height: 70px;
+    }
+
+    #navbar {
       background-color: orange;
       border: 2px solid black;
     }
+
+    #navbar li {
+      list-style-type: none;
+      display: inline;
+    }
+
+    /* Temporär end */
 
     #video { 
       background-color: red;
@@ -35,7 +59,7 @@
     }
 
     #infos {
-      background-color: white;
+      background-color: pink;
       border: 2px solid black;
     }
 
