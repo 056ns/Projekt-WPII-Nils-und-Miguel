@@ -1,7 +1,7 @@
 /*Standart Regeln*/
   * { padding: 0;
       margin: 0; 
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Arial, sans-serif
     }
 /*Layout*/
     div {
@@ -32,8 +32,8 @@
     }
 
     #logo {
+      width: 18%;
       border: 2px solid black;
-      
     }
 
     #logo img {
@@ -42,13 +42,16 @@
     }
 
     #navbar {
-      background-color: orange;
-      border: 2px solid black;
+      background-color: white;
+      width: 80%;
     }
 
     #navbar li {
       list-style-type: none;
       display: inline;
+      font-size: 35px;
+      margin: 2%;
+
     }
 
     /* Temporär end */
