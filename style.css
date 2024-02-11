@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #858383;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #5c5a5a;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -68,7 +68,7 @@ body {
   
   
   table {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border:  3px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -83,7 +83,8 @@ body {
   td {
     text-align: center;
     vertical-align: middle;
-    border:  3px dashed black; width: 50%;
+    border:  3px dashed black; border-radius: 10px;
+   
   }     
   
   th {
@@ -92,10 +93,14 @@ body {
     border:  3px dashed black; 
   }   
   
-  #Abrundung {
+  #Bild {
     border-radius: 10px;
     vertical-align: middle;
+    height: 500px;
+    width: 900px;
+    
   }
+
 
 
    /* Nils end */
