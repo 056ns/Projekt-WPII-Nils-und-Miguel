@@ -84,6 +84,7 @@ body {
     text-align: center;
     vertical-align: middle;
     border:  3px dashed black; border-radius: 10px;
+    width: 50%;
    
   }     
   
@@ -120,14 +121,15 @@ body {
     font-size: 50px; 
     display: inline;
     border: 3px solid black;    /* Border anzeigen */
-    
+    margin-left: 1%;
   }
 
   #links {
     font-size: 50px; 
     display: inline;
-      border: 3px solid black;   /* Border anzeigen */
-  }
+    border: 3px solid black;   /* Border anzeigen */
+    margin-left: 13%;
+    }
   
   #eins {
     border: 3px solid black;
@@ -139,6 +141,9 @@ body {
     border: 3px solid black;
   }
 
+ a {
+  color: black;
+ }
  
 
 
