@@ -93,26 +93,53 @@ body {
     border:  3px dashed black; 
   }   
   
-  #Bild {
+  #Bildrechts {
     border-radius: 10px;
     vertical-align: middle;
     height: 500px;
     width: 900px; 
-    margin-left: 25cm;
-    align-items: center;
+    margin-left: 260px;
+    border: 3px solid black;
+   }
+
+   #Bildlinks {
+    border-radius: 10px;
+    vertical-align: middle;
+    height: 500px;
+    width: 900px; 
+    margin-left: 125px;
+    border: 3px solid black;
+   }
+   
+
+  #TabelleQuellen {
+    margin-bottom: 70px;
+  }
+
+  #rechts {
+    font-size: 50px; 
+    display: inline;
+    border: 3px solid black;    /* Border anzeigen */
     
   }
 
-
-
-  #ZweitesDatum {
-    font-size: 50px;
-    border: black; 
-    text-align: left;
+  #links {
+    font-size: 50px; 
+    display: inline;
+      border: 3px solid black;   /* Border anzeigen */
   }
   
+  #eins {
+    border: 3px solid black;
+    margin-bottom: 20px;
+  }
+
+
+  #zwei {
+    border: 3px solid black;
+  }
+
  
-  
 
 
 
