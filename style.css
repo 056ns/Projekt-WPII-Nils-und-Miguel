@@ -24,7 +24,7 @@
     /* Temporär start */
 
     #header {
-      background-color: white;
+      background-color: white;                /* Hintergrundfarbe weiß */
       border: 2px solid black;
       display: flex;
       justify-content: space-between;
@@ -32,7 +32,7 @@
     }
 
     #logo {
-      width: 18%;
+      width: 16%;
       border: 2px solid black;
     }
 
