@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #858383;
     overflow: hidden;
+    overflow-y: auto;
   }
 
   .navbar {
@@ -68,7 +69,7 @@ body {
   
   table {
     font-family: 'Times New Roman', Times, serif;
-    border: 3px solid black;
+    border:  3px solid black;
     margin-left: auto;
     margin-right: auto;
     font-size: 50px;
@@ -82,7 +83,19 @@ body {
   td {
     text-align: center;
     vertical-align: middle;
+    border:  3px dashed black; width: 50%;
   }     
+  
+  th {
+    text-align: center;
+    vertical-align: middle;
+    border:  3px dashed black; 
+  }   
+  
+  #Abrundung {
+    border-radius: 10px;
+    vertical-align: middle;
+  }
 
 
    /* Nils end */
