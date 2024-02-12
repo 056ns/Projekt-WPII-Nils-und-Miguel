@@ -160,6 +160,22 @@
       color: black;
     }
 
+    #scrollToTopBtn {
+      position: fixed;
+      background-color: #ff7b00;
+      right: 10px;
+      bottom: 10px;
+      color: black;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      border-radius: 30%;
+      cursor: pointer; 
+      font-size: medium;
+      
+  } 
+
 
 
 
