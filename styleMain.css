@@ -1,7 +1,7 @@
 /*Standart Regeln*/
   * { padding: 0;
       margin: 0; 
-      font-family: Arial, sans-serif
+      
     }
 /*Layout*/
     div {
@@ -21,10 +21,10 @@
     }
     
 
-    /* Temporär start */
+               /* header start */
 
     #header {
-      background-color: #ff7b00;                /* Hintergrundfarbe weiß */
+      background-color: #ff7b00;                /* Hintergrundfarbe orange */
       border: 2px solid black;
       display: flex;
       justify-content: space-between;
@@ -56,7 +56,11 @@
 
     }
 
-    /* Temporär end */
+    
+
+    
+
+               /* header end */
 
     #video { 
       border-radius: 70px;
