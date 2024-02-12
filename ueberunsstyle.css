@@ -44,11 +44,10 @@
 
  
  #AutoÜberUns {
-    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
     height: 30%;
-    position: relative;
-    left: 20px;
-    top: 50px; 
+    width: 30%; 
  }
 
  #Hauptüberschrift {
