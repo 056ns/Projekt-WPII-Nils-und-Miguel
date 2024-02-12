@@ -117,36 +117,22 @@ body {
     margin-bottom: 70px;
   }
 
-  #rechts {
-    font-size: 50px; 
-    display: inline;
-    border: 3px solid black;    /* Border anzeigen */
-    margin-left: 1%;
-  }
-
-  #links {
-    font-size: 50px; 
-    display: inline;
-    border: 3px solid black;   /* Border anzeigen */
-    margin-left: 13%;
-    }
-  
-  #eins {
-    border: 3px solid black;
-    margin-bottom: 20px;
-  }
-
-
-  #zwei {
-    border: 3px solid black;
-  }
-
  a {
   color: black;
  }
  
+ #AutoÜberUns {
+    width: 50%;
+    height: 30%;
+    position: relative;
+    left: 20px;
+    top: 50px; 
+ }
+
+ #Hauptüberschrift {
+  font-size: x-large;
+ }
 
 
 
 
-   /* Nils end */
