@@ -1,32 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleMain.css">
 </head>
-<body>
-  <header>
-    <div class="navbar">
-      <a href="index.html"><img src="Grafiken/McLarenLogo1Main.png" width="200" height="70"></a>
-      <div class="links"><a href="Unterseiten/Models.html">Unsere Favoriten</a></div>
-      <a href="#contact" >Formel 1</a>
-      <a href="Unterseiten/Über uns.html">Über uns</a>
-      <a href="Unterseiten/Quellen.html">Quellen</a>
-    </div> 
-    
-    
-  </header>
+<body id="hauptseite">
+  <div id="wrapper">
+      <div id="header">
+        <div id="logo">
+            <a href="index.html"><img src="Grafiken/McLarenLogo1Main.png"></a>
+        </div>
+        <div id="navbar">
+          <ul>
+            <li id="favoriten">Unsere Favoriten</li>
+            <li id="formel1">Formel 1</li>
+            <li id="uns">Über uns</li>
+            <li id="quellen">Quellen</li>
+          </ul>
+        </div>
+      </div>
+      
+                    <!--Unter Navbar-->
+      
+      
+      
+      <div id="video">
+          <video autoplay muted loop>
+            <source src="Grafiken/McLaren.mp4" type="video/mp4">
+          </video>
+      </div>
+      
+      
+                    <!--Unter Video-->
+      
+      
+      <div id="infos">
+          <h1>Modelle</h1>
+          <br>
+          <h2>"There are No Limits"</h2>
+          <br>
+          <br>
+          
+          
+                    <!--Erste Tabelle-->
 
-  <div class="content">
+          <table class="tabelle" id="tabelle1">
+            <tr>
+              <th class="quadrat">
+                720s
+                <br>
+                <img src="Grafiken/720s.png" id="image">
+              </th>
+              <th class="text">
+                <p>Ein wunderschönes Auto, ausgelegt auf Schnelligkeit.</p>
+                <br>
+                <br>
+                <ul>
+                  <li>Unfassbare 720PS passend zum namen</li>
+                  <li>Von 0 auf 100km/h in 2.8 Sekunden</li>
+                  <li>Seit 05.2017 bis 03.2019</li>
+                  <li>Gewicht von 1283kg</li>
+                  <li>Höchstgeschwindigkeit von unfassbaren 341km/h</li>
+                </ul>
+              </th>
+            </tr>
+          </table>
+      
+                    <!--Zweite Tabelle-->
+      
+          <table class="tabelle" id="tabelle2">
+            <tr>
+              <th class="text">
+                <p>Ein Hybrid Sportwagen mit beeindruckenden Leistungen.</p>
+                <br>
+                <br>
+                <ul>
+                  <li>585PS mit dem Verbrennungsmotor</li>
+                  <li>95PS durch den Elektromotor</li>
+                  <li>Von 0 auf 100km/h in 3 Sekunden</li>
+                  <li>Seit 02.2021</li>
+                  <li>Gewicht von 1498kg</li>
+                  <li>Höchstgeschwindigkeit von 330km/h bzw. 130km/h elektrisch</li>
+                </ul>
+                <br>              
+              </th>
+              <th class="quadrat">
+                Artura
+                <br>
+                <img src="Grafiken/artura.png" id="artura">
+              </th>
+            </tr>
+          </table>
+        
+      
+                    <!--Dritte Tabelle-->
+                      
+        <table class="tabelle" id="tabelle3">
+            <tr>
+              <th class="quadrat">
+                Senna GTR
+                <br>
+                <img src="Grafiken/senna.png" id="image">
+              </th>
+              <th class="text">
+                <p>Eine Rennmaschine mit Straßenzulassung.</p>
+                <br>
+                <br>
+                <ul>
+                  <li>Unfassbare 800PS</li>
+                  <li>Von 0 auf 100km/h in 2.8 Sekunden</li>
+                  <li>Seit 2018 bis 2019</li>
+                  <li>Gewicht von 1309kg</li>
+                  <li>Höchstgeschwindigkeit von unfassbaren 335km/h</li>
+                </ul>
+              </th>
+            </tr>
+          </table>
+        </div>
+        
+                    <!--Vierte Tabelle-->
 
-</div>
+        <table class="tabelle" id="tabelle4">
+          <tr>
+            <th class="text">
+              <p>Ein Hybrid Sportwagen mit beeindruckenden Leistungen.</p>
+              <br>
+              <br>
+              <ul>
+                <li>Unfassbare 840PS</li>
+                <li>10.000 rpm</li>
+                <li>Von 0 auf 100km/h in nur 2.5 Sekunden</li>
+                <li>Seit 2023 nur 25 Modelle jemals</li>
+                <li>Gewicht von nur 1000kg</li>
+                <li>Höchstgeschwindigkeit von 322km/h</li>
+              </ul>
+              <br>              
+            </th>
+            <th class="quadrat">
+              Artura
+              <br>
+              <img src="Grafiken/solus.png" id="artura">
+            </th>
+          </tr>
+        </table>
 
-<video autoplay muted loop>
-  <source src="Grafiken/McLaren.mp4" type="video/mp4">
-</video>
-
-hallo
+                    <!--Unter Infos-->
+      
+      <div id="footer">
+          <a href="https://preowned.mclaren.com/eu/de/de/fahrzeuge?_ga=2.266291146.458281441.1619527120-959420974.1615977399">
+            <h1>Suche jetzt einen McLaren Händler und finden sie ihren McLaren gebrauchtwagen</h1></a>
+      </div>
+  </div>
 
 </body>
 </html>
