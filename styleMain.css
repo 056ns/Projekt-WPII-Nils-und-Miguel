@@ -10,12 +10,12 @@
     }
 
     #hauptseite {
-      background-color: blue;
+      background-color: #5c5a5a;
     }
   
     #wrapper {
       background-color: #5c5a5a;
-      border: 2px solid black;
+
       margin: 0px;
       padding: 0px;
     }
@@ -25,7 +25,6 @@
 
     #header {
       background-color: #ff7b00;                /* Hintergrundfarbe orange */
-      border: 2px solid black;
       display: flex;
       justify-content: space-between;
       align-items: center;
