@@ -85,26 +85,27 @@
       
     }
 
-    table {
-      margin-bottom: 4%;
-    }
    
    
     #tabelle1 {
       color: orange;
+      margin-bottom: 4%;
     }
     
     #tabelle2 {
       color: lightgreen;
+      margin-bottom: 4%;
     }
     
     
     #tabelle3 {
       color: lightblue;
+      margin-bottom: 4%;
     }
 
     #tabelle4 {
       color: white;
+      margin-bottom: 4%;
     }
 
     .quadrat {
@@ -155,3 +156,8 @@
     a:visited {
       color: black;
     }
+
+
+
+
+                        /* Nils */
