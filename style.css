@@ -14,7 +14,7 @@
     }
   
     #wrapper {
-      background-color: grey;
+      background-color: #5c5a5a;
       border: 2px solid black;
       margin: 0px;
       padding: 0px;
@@ -24,16 +24,16 @@
     /* Temporär start */
 
     #header {
-      background-color: white;                /* Hintergrundfarbe weiß */
+      background-color: #ff7b00;                /* Hintergrundfarbe weiß */
       border: 2px solid black;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
     }
 
     #logo {
       width: 16%;
-      border: 2px solid black;
     }
 
     #logo img {
@@ -42,31 +42,116 @@
     }
 
     #navbar {
-      background-color: white;
+      background-color: #ff7b00;
       width: 80%;
+      
     }
 
     #navbar li {
       list-style-type: none;
       display: inline;
-      font-size: 35px;
+      font-size: 30px;
       margin: 2%;
+      font-family: 'Courier New', Courier, monospace ;
 
     }
 
     /* Temporär end */
 
     #video { 
-      background-color: red;
-      border: 2px solid black;
+      border-radius: 70px;
+      width: 98.1%;
+      }
+    video {
+      width: 100%;
+      height: 100%;
+      border-radius: 70px;
     }
 
     #infos {
-      background-color: pink;
-      border: 2px solid black;
+      background-color: #5c5a5a;
+      text-align: center;
+      height: auto;
+      color: orange;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    .tabelle {
+      width: 100%;
+      font-size: 35px;
+      
+    }
+
+    table {
+      margin-bottom: 4%;
+    }
+   
+   
+    #tabelle1 {
+      color: orange;
+    }
+    
+    #tabelle2 {
+      color: lightgreen;
+    }
+    
+    
+    #tabelle3 {
+      color: lightblue;
+    }
+
+    #tabelle4 {
+      color: white;
+    }
+
+    .quadrat {
+      border: 3px solid black;
+      border-radius: 40px;
+      text-align: center;
+    }
+
+    #artura {
+      width: 99%;
+    }
+    
+    
+    #image {
+      width: 100%;
+    }
+
+
+    .text {
+      text-align: left;
+      vertical-align: top;
+      font-size: 30px;
+      
+    }
+
+    p {
+      text-align: center;
+    }
+
+    ul {
+      padding-left: 8%;
     }
 
     #footer {
-      background-color: violet;
-      border: 2px solid black;
+      background-color: #5c5a5a;
+      margin-top: 20%;
+      text-align: center;
+    }
+    
+   
+                        /* Links */
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: black;
     }
