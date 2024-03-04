@@ -1,20 +1,16 @@
 body {
-    font-family:'Courier New', Courier, monospace;
     background-color: #5c5a5a;
-    overflow: hidden;
-    overflow-y: auto;
   }
 
-  
+  a {
+    color: black;
+  }
 
   .centered {
     font-size: 20px;
   }
 
-  .navbar a {
-    color: black;
-    font-size: 35px;
-  }
+
   .links {
     margin-top: 18px;
   }

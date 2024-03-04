@@ -13,54 +13,6 @@
       background-color: #5c5a5a;
     }
   
-    #wrapper {
-      background-color: #5c5a5a;
-
-      margin: 0px;
-      padding: 0px;
-    }
-    
-
-               /* header start */
-
-    #header {
-      background-color: #ff7b00;                /* Hintergrundfarbe orange */
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-    }
-
-    #logo {
-      width: 16%;
-    }
-
-    #logo img {
-     width: 200px; 
-     height: 70px;
-    }
-
-    #navbar {
-      background-color: #ff7b00;
-      width: 80%;
-      
-    }
-
-    #navbar li {
-      list-style-type: none;
-      display: inline;
-      font-size: 30px;
-      margin: 2%;
-      font-family: 'Courier New', Courier, monospace ;
-
-    }
-
-    
-
-    
-
-               /* header end */
-
     #video { 
       border-radius: 70px;
       width: 98.1%;
@@ -138,7 +90,7 @@
       text-align: center;
     }
 
-    ul {
+    .ul {
       padding-left: 8%;
     }
 

@@ -1,6 +1,10 @@
 
-  
-  .td {
+a {
+  color: black;
+}
+ 
+ 
+ .td {
     text-align: center;
     vertical-align: middle;
     border:  3px dashed black; border-radius: 10px;
