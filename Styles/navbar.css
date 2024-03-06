@@ -1,68 +1,81 @@
-* { padding: 0;
-    margin: 0; 
-    
+* { padding: 0;                                          
+    margin: 0;                                          /*Jedes Element ohne padding/margin auf 0 setzen (Für die Browser)*/   
   }
 
 
 
 div {
-    margin: 5px;
-    padding: 5px;
+    margin: 5px;                                        /*Alle div's sollen außen 5px Platz lassen*/    
+    padding: 5px;                                       /*Alle Padding's sollen 5px Platz lassen*/
   }
 
   #hauptseite {
-    background-color: #5c5a5a;
+    background-color: #5c5a5a;                        /*Hintergrundfarbe Grau*/
   }
 
   #wrapper {
-    background-color: #5c5a5a;
-    margin: 0px;
-    padding: 0px;
+    background-color: #5c5a5a;                        /*Hintergrundfarbe Grau*/
+    margin: 0px;                                        /*Nach außen 0px Platz lassen*/
+    padding: 0px;                                       /*Nach außen 0px Platz lassen*/
   }
 
         /* Links */
 
   a:visited {
-    color: black;
-    text-decoration: none;
+    color: black;                                     /*Bereits besuchte Links sollen die Farbe Schwarz haben*/
+    text-decoration: none;                              /*Bereits besuchte Links sollen nicht unterstrichen sein*/
   }
 
   a {
-    text-decoration: none;
+    text-decoration: none;                              /*Links sollen nicht unterstrichen sein*/
   }
 
         /* Links */
 
 #header {
-    background-color: #ff7b00;                /* Hintergrundfarbe orange */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #ff7b00;                        /*Hintergrundfarbe Orange*/
+    display: flex;                                      /*Elemente innerhalb eines div's anordnen*/
+    justify-content: space-between;                     /*Verfügbaren Platz zwischen elementen aufteilen*/
+    align-items: center;                                /*Elemente innerhalb eines div's vertikal zentrieren*/
 
   }
 
   #logo {
-    width: 16%;
+    width: 16%;                                         /*McLaren Logo 16% Breite der div dox geben*/
   }
 
   #logo img {
-   width: 200px; 
-   height: 70px;
+   width: 200px;                                        /*McLaren Logo soll 200px Breit sein*/
+   height: 70px;                                        /*McLaren Logo soll 70px Hoch sein*/
   }
 
   #navbar {
-    background-color: #ff7b00;
-    width: 80%;
+    background-color: #ff7b00;                        /*Hintergrundfarbe Orange*/
+    width: 80%;                                         /*Navigationsleiste soll 80% der Breite einnehmen*/
     
   }
 
   #navbar li {
-    list-style-type: none;
-    display: inline;
-    font-size: 30px;
-    margin: 2%;
-    font-family: 'Courier New', Courier, monospace ;
+    list-style-type: none;                              /*Keine Punkte vor den Stichpunkten*/
+    display: inline;                                    /*Border von einem Element auf das nötigste reduzieren*/  
+    font-size: 30px;                                    /*Schriftgröße 30px*/
+    margin: 2%;                                         /*Auf jeder Seite 2% Platz lassen*/
+    font-family: 'Courier New', Courier, monospace ;    /*Schriftart ändern*/
 
   }
 
+  #scrollToTopBtn {
+    position: fixed;                                    /*Element fixieren ,sodass es sich beim Scrollen nicht bewegt*/
+    background-color: #ff7b00;                        /*Hintergrundfarbe Orange*/
+    right: 10px;                                        /*Element 10px vom rechten Rand platzieren*/ 
+    bottom: 10px;                                       /*Element 10px vom unteren Rand platzieren*/
+    color: black;                                     /*Schriftfarbe Schwarz*/
+    width: 50px;                                        /*Breite auf 50px setzen*/
+    height: 50px;                                       /*Höhe auf 50px setzen*/
+    text-align: center;                                 /*Text zentrieren*/
+    font-family: 'Courier New', Courier, monospace;     /*Textart ändern*/
+    border-radius: 30%;                                 /*Element abrunden*/
+    cursor: pointer;                                    /*Cursor verändern wenn man Ihn drüber hält*/
+    font-size: medium;                                  /*Schriftgröße medium*/
+  } 
  

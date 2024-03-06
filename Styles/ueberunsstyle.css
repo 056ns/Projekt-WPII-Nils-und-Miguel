@@ -1,21 +1,21 @@
 
 a {
-  color: black;
+  color: black;                                       /*Links sollen die Farbe Schwarz haben*/
 }
  
  
  .td {
-    text-align: center;
-    vertical-align: middle;
-    border:  3px dashed black; border-radius: 10px;
-    width: 50%;
+    text-align: center;                                 /*Text soll zentriert sein*/
+    vertical-align: middle;                             /*Text soll vertikal zentriert sein*/
+    border:  3px dashed black; border-radius: 10px;   /*Border soll 3px breit sein und Linie soll gestrichelt sein und Border soll abgerundet sein*/
+    width: 50%;                                         /*Jede Tabellenspalte soll 50% Breite haben*/
    
   }     
   
   .th {
-    text-align: center;
-    vertical-align: middle;
-    border:  3px dashed black; 
+    text-align: center;                                 /*Text soll zentriert sein*/
+    vertical-align: middle;                             /*Text soll vertikal zentriert sein*/
+    border:  3px dashed black;                        /*Border soll 3px breit sein und soll gestrichelt sein*/
   }   
   
 
@@ -23,9 +23,9 @@ a {
 
 
     #AutoÜberUns {
-      margin-right: 20%;
-      border: 3px solid black;
-      border-radius: 40px;
+      margin-right: 20%;                                 /*Element soll rechts 20% Platz lassen*/
+      border: 3px solid black;                         /*Border soll 3px breit sein*/
+      border-radius: 40px;                               /*Border soll abgerundet sein*/
     }
  
      
@@ -36,72 +36,52 @@ a {
 
 
 body {
-  background-color:#5c5a5a ;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  background-color:#5c5a5a ;                           /*Hintergrundfarbe Grau*/
+  overflow-y: scroll;                                    /*Scrollbar hinzufügen*/
+  overflow-x: hidden;                                    /*Alle Sachen die aus der Seite rauslaufen sollen versteckt sein*/
 }
 
 
-#scrollToTopBtn {
-  position: fixed;
-  background-color: #ff7b00;
-  right: 10px;
-  bottom: 10px;
-  color: black;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  border-radius: 30%;
-  cursor: pointer; 
-  font-size: medium;
-  
-} 
-
-
-
-
 #TabelleUnternehmen {
- 
-  font-size: x-large;
-  display: inline;
-  width: 50%;
-  text-align: center;
+  font-size: x-large;                                    /*Schriftgröße x-large*/
+  display: inline;                                       /*Border eines elements auf das nötigste begrenzen*/
+  width: 50%;                                            /*Breite auf 50% setzen*/
+  text-align: center;                                    /*Text zentrieren*/
 
 }
 
 td {
-  width: 50%;
-}
+  width: 50%;                                            /*Jede Tabellenspalte soll 50% der Breite bekommen*/
+}   
 
 th {
-  font-size: xx-large;
-  color: lightblue;
+  font-size: xx-large;                                   /*Schriftgröße xx-large*/
+  color: lightblue;                                    /*Schriftfarbe Hellblau*/
 }
 
 #UnternehmenText {
-  color: lightblue;
+  color: lightblue;                                    /*Schriftfarbe Hellblau*/
 }
 
 
 #text {
-  margin-top: 7%;
+  margin-top: 7%;                                        /*Oben 7% Platz lassen*/
 }
 
 
 
 #TabelleBruce {
-  color: lightblue;
-  text-align: center;
-  font-size: x-large;
+  color: lightblue;                                    /*Schriftfarbe Hellblau*/
+  text-align: center;                                    /*Text zentrieren*/
+  font-size: x-large;                                    /*Schriftgröße x-large*/
 }
 
 
 #Bruce {
-  width: 90%;
-  height: 90%;
-  border-radius: 40px;
-  border: 3px solid black ;
+  width: 90%;                                            /*Breite auf 90% setzen*/
+  height: 90%;                                           /*Höhe auf 90% setzen*/
+  border-radius: 40px;                                   /*Border abrunden*/
+  border: 3px solid black ;                            /*Border soll 3px breit sein*/
 }
 
 
