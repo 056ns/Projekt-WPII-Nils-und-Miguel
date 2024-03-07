@@ -7,7 +7,40 @@ body {
     color: black;                               /*Linkfarbe Schwarz*/
   }
 
+  h1 {
+    text-align: center;
+  }
 
-  #Zeile1 {
-    
+  #Bild1 {
+    margin-left: 4.5%;
+  }
+
+  #Bild2 {
+    margin-left: 4.5%;
+  }
+
+  #Bild3 {
+    margin-left: 4.5%;
+  }
+
+  #Bilder {
+    display: flex; 
+  }
+
+  img {
+    width: 322px;
+  }
+
+  #Kaufen {
+    background-color: orange;
+    font-size: xx-large;
+  }
+
+  button {
+    border: none;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
   }
