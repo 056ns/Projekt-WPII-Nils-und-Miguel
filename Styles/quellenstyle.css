@@ -54,6 +54,9 @@ body {
     vertical-align: middle;                                 /*Text vertikal zentrieren*/
   }
 
+  .Bild {
+    border: 2px solid black;                              /*2 Pixel dicke, schwarze Border*/
+  }
   
 
 

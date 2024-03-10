@@ -74,7 +74,20 @@ th {
   width: 90%;                                            /*Breite auf 90% setzen*/
   height: 90%;                                           /*Höhe auf 90% setzen*/
   border-radius: 40px;                                   /*Border abrunden*/
-  border: 3px solid black ;                            /*Border soll 3px breit sein*/
+  border: 3px solid black ;                            /*Border soll 3px breit, schwarz und durchgängig sein*/
 }
 
+
+#TabelleAutomotive {
+  color: lightblue;                                    /*Schriftfarbe Hellblau*/
+  text-align: center;                                    /*Schrift mittig ausgerichtet*/
+  font-size: x-large;                                    /*Schriftgröße x-large*/
+}
+
+#Supercar {
+  width: 80%;                                            /*Bild soll 80% seiner breite groß sein*/
+  height: 60%;                                           /*Bild soll 60% seiner Höhe groß sein*/
+  border-radius: 40px;                                   /*Border abrunden*/
+  border: 3px Solid black;                             /*Border soll 3px breit, schwarz und durchgämgig sein*/
+}
 
