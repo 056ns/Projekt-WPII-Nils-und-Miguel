@@ -11,18 +11,6 @@ body {
     text-align: center;                           /*Text zentrieren*/
   }
 
-  #Bild1 {
-    margin-left: 4.5%;                            /*Abstand links 4.5%* vergrößern*/
-  }
-
-  #Bild2 {
-    margin-left: 4.5%;                            /*Abstand links 4.5%* vergrößern*/                
-  }
-
-  #Bild3 {
-    margin-left: 4.5%;                            /*Abstand links 4.5%* vergrößern*/
-  }
-
   #Bilder {
     display: flex;                                /*Elemente innerhalb eines div's anordnen*/
   }
@@ -53,5 +41,8 @@ body {
     position: absolute;
     left: 36%;
     top: 36%;
-    
+  }
+
+  #Bilder {
+    justify-content: space-between;
   }
