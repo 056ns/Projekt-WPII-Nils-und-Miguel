@@ -37,12 +37,15 @@ body {
     text-align: end;                              /*Text ans Ende der Seite stellen*/
   }
 
-  #Bearbeitung {
-    position: absolute;
-    left: 36%;
-    top: 36%;
+  #alles {    
+    display: flex;                                /*Elemente innerhalb eines div's anordnen*/
+    justify-content: center;                      /*Zentriert Elemente horizontal*/
+    align-items: center;                          /*Elemente innerhalb eines div's vertikal zentrieren*/
+    height: 80vh;                                 /*Höhe auf 80% der gesamten Seite*/
+  }
+  
+  #Bilder {
+    justify-content: space-between;               /*Verfügbaren Platz zwischen elementen aufteilen*/
   }
 
-  #Bilder {
-    justify-content: space-between;
-  }
+
