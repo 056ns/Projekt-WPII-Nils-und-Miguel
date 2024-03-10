@@ -23,7 +23,7 @@ a {
 
 
     #AutoÜberUns {
-      margin-right: 20%;                                 /*Element soll rechts 20% Platz lassen*/
+      margin-right: 5%;                                 /*Element soll rechts 5% Platz lassen*/
       border: 3px solid black;                         /*Border soll 3px breit sein*/
       border-radius: 40px;                               /*Border soll abgerundet sein*/
     }
