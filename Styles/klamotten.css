@@ -8,43 +8,50 @@ body {
   }
 
   h1 {
-    text-align: center;
+    text-align: center;                           /*Text zentrieren*/
   }
 
   #Bild1 {
-    margin-left: 4.5%;
+    margin-left: 4.5%;                            /*Abstand links 4.5%* vergrößern*/
   }
 
   #Bild2 {
-    margin-left: 4.5%;
+    margin-left: 4.5%;                            /*Abstand links 4.5%* vergrößern*/                
   }
 
   #Bild3 {
-    margin-left: 4.5%;
+    margin-left: 4.5%;                            /*Abstand links 4.5%* vergrößern*/
   }
 
   #Bilder {
-    display: flex; 
+    display: flex;                                /*Elemente innerhalb eines div's anordnen*/
   }
 
   img {
-    width: 322px;
+    width: 322px;                                 /*Bildbreite auf 322px setzen*/
   }
 
   #Kaufen {
-    background-color: orange;
-    font-size: xx-large;
+    background-color: orange;                   /*Hintergrundfarbe Orange*/
+    font-size: xx-large;                          /*Schriftgröße xx-large*/
   }
 
   button {
-    border: none;
+    border: none;                                 /*Keine Border anzeigen*/
   }
 
   .button {
-    display: flex;
-    justify-content: center;
+    display: flex;                                /*Elemente innerhalb eines div's anordnen*/
+    justify-content: center;                      /*Platz zwischen elementen horizontal aufteilen*/
   }
 
   #Credits {
-    text-align: end;
+    text-align: end;                              /*Text ans Ende der Seite stellen*/
+  }
+
+  #Bearbeitung {
+    position: absolute;
+    left: 36%;
+    top: 36%;
+    
   }

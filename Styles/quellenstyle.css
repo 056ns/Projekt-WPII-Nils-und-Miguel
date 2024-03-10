@@ -1,71 +1,58 @@
 body {
-    background-color: #5c5a5a;
+    background-color: #5c5a5a;                            /*Hintergrundfarbe Grau*/
   }
 
   a {
-    color: black;
+    color: black;                                         /*Linkfarbe Schwarz*/
   }
 
   .centered {
-    font-size: 20px;
+    font-size: 20px;                                        /*Schriftgröße 20px*/
   }
 
-
   .links {
-    margin-top: 18px;
+    margin-top: 18px;                                       /*Oben 18px Platz lassen*/
   }
 
   table {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border:  3px solid black;
-    font-size: 50px;
-    width: 100%;
-    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*Schriftart ändern*/
+    border:  3px solid black;                             /*Border 3px breit und Schwarz*/
+    font-size: 50px;                                        /*Schriftgröße 50px*/
+    width: 100%;                                            /*100% Breite*/
+    height: 100%;                                           /*100% Höhe*/
   }
 
-  
-  
-  
   .Quellen {
-    text-align: center;
-    vertical-align: middle;
-    border:  3px dashed black; border-radius: 10px;
-    width: 50%;
-   
+    text-align: center;                                     /*Text zentrieren*/
+    vertical-align: middle;                                 /*Text vertikal zentrieren*/
+    border:  3px dashed black;                            /*Border 3px breit und gestrichelt machen*/
+    border-radius: 10px;                                    /*Border abrunden*/
+    width: 50%;                                             /*Breite auf 50% setzen*/
   }     
   
   th {
-    text-align: center;
-    vertical-align: middle;
-    border:  3px dashed black; 
+    text-align: center;                                     /*Text zentrieren*/
+    vertical-align: middle;                                 /*Text vertikal zentrieren*/
+    border:  3px dashed black;                            /*Border 3px breit machen und Schwarz*/
   }   
   
 
-   
-#TabelleStand {
-    position: relative; top: 50px;
-    border-color: #5c5a5a;
-   
-  
+  #TabelleStand {
+    position: relative;                                     /*Verschiebt ein Element relativ zur normalen Position*/
+    top: 50px;                                              /*50px vom oberen Rand anordnen*/
+    border-color: #5c5a5a;                                /*Farbe der Boder soll Grau sein*/
+  }
 
+  img {
+    border-radius: 10px;                                    /*Border abgerundet machen*/
+    width: 70%;                                             /*70% Breite*/
+  }
 
-}
-
-
- 
-img {
-    border-radius: 10px;
-    width: 70%;
-}
-
-.tdStand {
-    
-    
-    width: 50%;
-    text-align: center;
-    vertical-align: middle;
-    
-}
+  .tdStand {
+    width: 50%;                                             /*50% Breite*/
+    text-align: center;                                     /*Text zentrieren*/
+    vertical-align: middle;                                 /*Text vertikal zentrieren*/
+  }
 
   
 
