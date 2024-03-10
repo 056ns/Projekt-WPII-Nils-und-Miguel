@@ -1,132 +1,130 @@
 /*Standart Regeln*/
-  * { padding: 0;
-      margin: 0; 
+  * { padding: 0;                                                               /*Wenn nix angegeben ist soll kein Abstand gelassen werden*/
+      margin: 0;                                                                /*Wenn nix angegeben ist soll kein Platz gelassen werden*/
       
     }
 /*Layout*/
     div {
-      margin: 5px;
-      padding: 5px;
+      margin: 5px;                                                              /*Auf jeder Seite 5px Platz lassen*/
+      padding: 5px;                                                             /*Auf jeder Seite 5px Abstand*/
     }
 
     #hauptseite {
-      background-color: #5c5a5a;
+      background-color: #5c5a5a;                                              /*Hintergrundfarbe Grau*/
     }
   
-    #video { 
-      border-radius: 70px;
-      width: 98.1%;
-      }
+    #video {                                                    
+      width: 98.1%;                                                             /*Breite auf 98.1% setzen*/
+    }
+
     video {
-      width: 100%;
-      height: 100%;
-      border-radius: 70px;
+      width: 100%;                                                              /*100% Breite*/
+      height: 100%;                                                             /*100% Höhe*/
+      border-radius: 70px;                                                      /*Video abrunden*/
     }
 
     #infos {
-      background-color: #5c5a5a;
-      text-align: center;
-      height: auto;
-      color: orange;
+      background-color: #5c5a5a;                                              /*Hintergrundfarbe Grau*/
+      text-align: center;                                                       /*Text zentrieren*/
+      height: auto;                                                             /*Höhe automatisch*/
+      color: orange;                                                          /*Schriftfarbe Orange*/
     }
 
     h1 {
-      font-size: 50px;
+      font-size: 50px;                                                          /*Schriftgröße 50px*/
     }
 
     .tabelle {
-      width: 100%;
-      font-size: 35px;
-      
+      width: 100%;                                                              /*100% Höhe*/
+      font-size: 35px;                                                          /*Schriftgröße 35px*/
     }
 
    
    
     #tabelle1 {
-      color: orange;
-      margin-bottom: 4%;
+      color: orange;                                                          /*Schriftfarbe Orange*/
+      margin-bottom: 4%;                                                        /*Unten 4% Platz lassen*/
     }
     
     #tabelle2 {
-      color: lightgreen;
-      margin-bottom: 4%;
+      color: lightgreen;                                                      /*Schriftfarbe Hellgrün*/
+      margin-bottom: 4%;                                                        /*Unten 4% Platz lassen*/
     }
     
     
     #tabelle3 {
-      color: lightblue;
-      margin-bottom: 4%;
+      color: lightblue;                                                        /*Schriftfarbe Hellblau*/
+      margin-bottom: 4%;                                                         /*Unten 4% Platz lassen*/
     }
 
     #tabelle4 {
-      color: white;
-      margin-bottom: 4%;
+      color: white;                                                            /*Schriftfarbe Weiß*/
+      margin-bottom: 4%;                                                         /*Unten 4% Platz lassen*/
     }
 
     .quadrat {
-      border: 3px solid black;
-      border-radius: 40px;
-      text-align: center;
+      border: 3px solid black;                                                 /*Border 3px breit und Schwarz*/   
+      border-radius: 40px;                                                       /*Border abrunden*/
+      text-align: center;                                                        /*Text zentrieren*/
     }
 
     #artura {
-      width: 99%;
+      width: 99%;                                                                /*99% Breite*/
     }
     
     
     #image {
-      width: 100%;
+      width: 100%;                                                               /*100% Breite*/
     }
 
 
     .text {
-      text-align: left;
-      vertical-align: top;
-      font-size: 30px;
+      text-align: left;                                                          /*Text links zentrieren*/
+      vertical-align: top;                                                       /*Text vertikal zentrieren*/
+      font-size: 30px;                                                           /*Schriftgröße 30px*/
       
     }
 
     p {
-      text-align: center;
+      text-align: center;                                                        /*Text zentrieren*/
     }
 
     .ul {
-      padding-left: 8%;
-    }
+      padding-left: 8%;                                                          /*Links 8% Abstand*/
+    } 
 
     #footer {
-      background-color: #5c5a5a;
-      margin-top: 20%;
-      text-align: center;
+      background-color: #5c5a5a;                                               /*Hintergrundfarbe Grau*/
+      margin-top: 20%;                                                           /*Oben 20% Platz lassen*/
+      text-align: center;                                                        /*Text zentrieren*/
     }
     
    
                         /* Links */
 
     a {
-      color: black;
-      text-decoration: none;
+      color: black;                                                            /*Linkfarbe Schwarz*/
+      text-decoration: none;                                                     /*Links nicht unterstreichen*/
     }
 
     a:visited {
-      color: black;
+      color: black;                                                            /*Besuchte Links sollen Schwarz sein*/
     }
 
     #scrollToTopBtn {
-      position: fixed;
-      background-color: #ff7b00;
-      right: 10px;
-      bottom: 10px;
-      color: black;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-      font-family: 'Courier New', Courier, monospace;
-      border-radius: 30%;
-      cursor: pointer; 
-      font-size: medium;
-      
-  } 
+      position: fixed;                                                           /*Fixiert an einer Stelle*/
+      background-color: #ff7b00;                                               /*Hintergrundfarbe Orange*/
+      right: 10px;                                                               /*10px rechts vom Rand platzieren*/
+      bottom: 10px;                                                              /*10px unten vom Rand platzieren*/
+      color: black;                                                            /*Schriftfarbe Schwarz*/
+      width: 50px;                                                               /*50px Breite*/
+      height: 50px;                                                              /*50px Höhe*/
+      text-align: center;                                                        /*Text zentrieren*/
+      font-family: 'Courier New', Courier, monospace;                            /*Schriftart ändern*/
+      border-radius: 30%;                                                        /*Abrundung*/
+      cursor: pointer;                                                           /*Mauszeiger verändern*/
+      font-size: medium;                                                         /*Schriftgröße medium*/  
+    } 
 
 
 
